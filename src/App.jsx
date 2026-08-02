@@ -7,6 +7,7 @@ import Certificates from './components/Certificates';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import FallingLeaves from './components/FallingLeaves';
 
 export default function App() {
   useEffect(() => {
@@ -30,6 +31,7 @@ export default function App() {
   return (
     <>
       <Navbar />
+      <FallingLeaves />
       <main>
         <Hero />
         <About />
